@@ -18,6 +18,10 @@ export default new Router({
 
     { path: "/c", component: PostList },
     { path: "/register", component: Register },
-    { path: "/login", component: Login}
+
+    { path: "/login", component: Login},
+
+    { path: "/login", component: Login }
+
   ]
 });
