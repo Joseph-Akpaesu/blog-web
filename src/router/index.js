@@ -3,6 +3,7 @@ import Router from "vue-router";
 import HelloWorld from "@/components/HelloWorld";
 import PostList from "@/components/PostList.vue";
 import Register from "@/components/Register.vue";
+import Login from "@/components/Login.vue";
 
 Vue.use(Router);
 
@@ -16,6 +17,7 @@ export default new Router({
     },
 
     { path: "/c", component: PostList },
-    { path: "/register", component: Register }
+    { path: "/register", component: Register },
+    { path: "/login", component: Login}
   ]
 });

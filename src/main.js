@@ -7,13 +7,17 @@ import router from "./router";
 
 // import { DatePicker } from 'ant-design-vue';
 import {HTTP} from './axios';//for microservices
-import {myMixin} from './mixins'
+// import {myMixin} from './mixins'
+// import VueMaterial from 'vue-material'
+// import 'vue-material/dist/vue-material.min.css'
+// import 'vue-material/dist/theme/default.css'
 
 Vue.config.productionTip = false;
+// Vue.use(VueMaterial)
 
 // Vue.use(DatePicker);
 Vue.prototype.$http = HTTP // for microservices
-Vue.mixin(theMixin)
+// Vue.mixin(theMixin)
 
 
 Vue.filter("to-uppercase", value => {
