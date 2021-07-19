@@ -1,10 +1,12 @@
 <template>
+
   <div class="body">
   <AppHeader />
       <section class="home">
         <div class="image-container">
             <img src="../assets/unsplash.jpg" alt="">
         </div>
+
         <div class="login-text" >
             <h3>Register on Food App</h3>
 
@@ -57,15 +59,22 @@
 
     </section>  
   </div>
+        
 </template>
 
 <script>
 
 import AppHeader from "../components/AppHeader.vue"
 export default {
+
     components: {
         AppHeader
     },
+
+components: {
+AppHeader
+},
+
   data() {
     return {
       formData: {
@@ -154,6 +163,7 @@ export default {
     margin-left: 190px;
     padding-top: 70px;
     letter-spacing: 1px;
+    color: black;
 }
 
 .social {
@@ -206,16 +216,25 @@ export default {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0px;
+    color: black;
 
 }
 
 .home .image-container img {
+
     height: 91%; 
     right: 0; 
     width: 45%;
     position: absolute;
     bottom: 0%;
     top: 73px;
+
+  height: 90%;
+  /* right: 0; */
+  width: 45%;
+  position: absolute;
+  /* z-index: -1; */
+
 }
 
 input[type=text] {
@@ -240,7 +259,7 @@ input[type=email] {
     width: 250px;  
     margin-top: 45px;
     display: inline;
-    background-color: #f6f7ff;
+
 }  
 
 
@@ -367,4 +386,11 @@ button a {
     
 }
 
+h3 {
+color: #2c3e50;
+font-family: "Avenir", Helvetica, Arial, sans-serif
+}
+
+
 </style>
+
