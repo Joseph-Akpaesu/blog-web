@@ -59,7 +59,7 @@
 
     </section>  
   </div>
-        </div>  
+        
 </template>
 
 <script>
@@ -163,6 +163,7 @@ AppHeader
     margin-left: 190px;
     padding-top: 70px;
     letter-spacing: 1px;
+    color: black;
 }
 
 .social {
@@ -215,6 +216,7 @@ AppHeader
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0px;
+    color: black;
 
 }
 
@@ -257,7 +259,7 @@ input[type=email] {
     width: 250px;  
     margin-top: 45px;
     display: inline;
-    background-color: #f6f7ff;
+
 }  
 
 
@@ -384,12 +386,11 @@ button a {
     
 }
 
-
-
-
-h3{
+h3 {
 color: #2c3e50;
 font-family: "Avenir", Helvetica, Arial, sans-serif
 }
+
+
 </style>
 
